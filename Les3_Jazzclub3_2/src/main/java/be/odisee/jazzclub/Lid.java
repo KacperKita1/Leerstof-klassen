@@ -16,4 +16,28 @@ public class Lid {
     // REQ0004 Bij succesvolle bekendmaking wordt het aantal foute pogingen voor dat lid terug op nul gezet
     // REQ0006 Bij niet succesvolle bekendmaking, wordt het aantal pogingen voor dat lidnummer verhoogd als het bestaat
     private int aantalFoutePogingen;
+
+    public int getLidnummer() {
+        return lidnummer;
+    }
+
+    public void setLidnummer(int lidnummer) {
+        this.lidnummer = lidnummer;
+    }
+
+    public String getPaswoord() {
+        return paswoord;
+    }
+
+    public void setPaswoord(String paswoord) {
+        this.paswoord = paswoord;
+    }
+
+    public int getAantalFoutePogingen() {
+        return aantalFoutePogingen;
+    }
+
+    public void setAantalFoutePogingen(int aantalFoutePogingen) {
+        this.aantalFoutePogingen = aantalFoutePogingen;
+    }
 }

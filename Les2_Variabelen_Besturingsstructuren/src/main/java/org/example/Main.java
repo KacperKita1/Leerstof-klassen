@@ -115,7 +115,7 @@ public class Main {
             aantalVerkochteTickets++;
             j++;
         }
-        while(j<10);
+        while (j < 10);
 
 
         // Herhaling - for-loop voorbeeld
@@ -124,7 +124,7 @@ public class Main {
         i < 10 is wat elke iteratie gecontroleerd wordt
         i++ is de aanpassing voor de controle in de volgende iteratie
          */
-        for(int k = 0; k < 10; k++){
+        for (int k = 0; k < 10; k++) {
             aantalVerkochteTickets++;
         }
 
@@ -138,12 +138,12 @@ public class Main {
         optredens1.add(80);
         optredens1.add(90);
 
-        for(int optreden: optredens1) {
+        for (int optreden : optredens1) {
             System.out.printf("het volgende element is %d%n", optreden);
         }
 
         int[] optredens2 = {35, 40, 65, 85, 95};
-        for(int optreden: optredens2) {
+        for (int optreden : optredens2) {
             System.out.printf("het volgende element is %d%n", optreden);
         }
     }

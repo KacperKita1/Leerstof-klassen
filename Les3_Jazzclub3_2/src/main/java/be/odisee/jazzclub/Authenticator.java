@@ -19,7 +19,7 @@ public class Authenticator {
     // REQ0008 Het is bekend hoeveel foute pogingen er maximaal zijn toegestaan
     private static final int MAX_AANTAL_FOUT = 3;
 
-    private Lid laatsteGeauthenticeerdeLid = null;
+    private final Lid laatsteGeauthenticeerdeLid = null;
 
     /**
      * Authenticeert de poging van een lid.
